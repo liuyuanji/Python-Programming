@@ -323,7 +323,9 @@ def evaluate_cleaning(subject):
     plt.show()
 evaluate_cleaning(3)
 
-# * Because the extreme values are filtered by the conditions of the upper and lower percentage values, the measurement of the data is more accurate*
+
+# *Because the extreme values are filtered by the conditions of the upper and lower percentage values, the measurement of the data is more accurate.*
+
 # #---
 # ## Task 5: Interpolating the data
 # 
@@ -369,9 +371,8 @@ tmp2 = seconds_to_datetime(tmp1, times[0])
 print(tmp2)
 
 
-# *Use this Markdown cell to explain how the functions `datetime_to_seconds()` and `seconds_to_datetime()` work.*
-#    the function datetime_to_seconds() is give a times array,it will return the element represents the time interval of time(seconds)
-#    the function second_to_datetime() is return the exact datetime when knowing the given interval of time(seconds) and the based staring time
+# *the function `datetime_to_seconds()`  is give a times array,it will return the element represents the time interval of time(seconds)
+# the function `second_to_datetime()`  is return the exact datetime when knowing the given interval of time(seconds) and the based staring time*
 
 # ---
 # 🚩 ***Task 5b:*** Write a function `generate_interpolated_hr(times, hr, time_delta)` which takes as inputs:
@@ -434,7 +435,7 @@ plt.plot(times_interp, hr_interp)
 plt.show()
 
 
-# *Use this Markdown cell for discussing your interpolation results.* The result is what i am expected, in the time of 5 second：from 14：09：25 to 14:09:29 ,i interpolate data in a linear way,just a plot shows.
+# *The result is what i am expected, in the time of 5 second：from 14：09：25 to 14:09:29 ,i interpolate data in a linear way,just a plot shows.*
 
 # ---
 # ## Task 6: Smoothing the data with a rolling average
